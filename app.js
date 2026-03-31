@@ -4,6 +4,7 @@ const env=require("dotenv").config();
 const PORT=process.env.PORT || 8080;
 // tjhis is from dev branch
 // check this one
+// now i will look at the code and see if it is working or not
 app.use(("/"),(req,res)=>{
 res.json({message:"hello world"})
 })
